@@ -1,0 +1,3 @@
+com\scheduler\shedlock\config\SchedulerConfiguration.class
+com\scheduler\shedlock\ShedlockApplication.class
+com\scheduler\shedlock\components\BaeldungTaskScheduler.class

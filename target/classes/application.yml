@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: shedlock-demo-app2
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+    password: postgres
+    hikari:
+      minimum-idle: 90
+      maximum-pool-size: 90
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    password: password
+#  jpa:
+#    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+#  jpa:
+#    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
